@@ -447,7 +447,18 @@ Both runs use **5,394** GeoContext-5K training questions, **96** questions per u
 
 ## Acknowledgements
 
-We thank the authors and maintainers of **Qwen3.5**, **VRSBench**, **LRS-GRO**, **RS5M**, **CHOICE**, **GEOBench-VLM**, **OmniEarth**, **HRVQA**, and **LHRS-Bench** for making their models and datasets publicly available.
+We thank the teams behind the following datasets, methods, and base models for making their resources publicly available:
+
+### Datasets
+
+- **VRSBench** — [Paper](https://arxiv.org/abs/2406.12384) · [Code](https://github.com/lx709/VRSBench) · [Dataset](https://huggingface.co/datasets/xiang709/VRSBench)
+- **LRS-GRO (ZoomEarth)** — [Paper](https://arxiv.org/abs/2511.12267) · [Code](https://github.com/earth-insights/ZoomEarth) · [Dataset](https://huggingface.co/datasets/earth-insights/LRS-GRO)
+- **RS5M** — [Paper](https://arxiv.org/abs/2306.11300) · [Code](https://github.com/om-ai-lab/RS5M) · [Dataset](https://huggingface.co/datasets/omlab/RS5M)
+
+### Methods & Models
+
+- **Vision-OPD** — [Paper](https://arxiv.org/abs/2605.18740) · [Code](https://github.com/VisionOPD/Vision-OPD)
+- **Qwen3.5** — [Blog](https://qwen.ai/blog?id=qwen3.5) · [Models](https://huggingface.co/Qwen)
 
 ## Citation
 
