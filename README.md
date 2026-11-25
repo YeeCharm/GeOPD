@@ -86,8 +86,8 @@
 ## Results
 
 <p align="center">
-  <a href="assets/results_overview.png">
-    <img src="assets/results_overview.png" alt="GeOPD benchmark comparison across five remote sensing VQA benchmarks" width="96%" />
+  <a href="assets/results_comparison.png">
+    <img src="assets/results_comparison.png" alt="GeOPD benchmark comparison across five remote sensing VQA benchmarks" width="96%" />
   </a>
 </p>
 
