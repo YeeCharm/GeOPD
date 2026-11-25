@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.DS_Store
+*.log
+evaluation/
+outputs/
+checkpoints/
+data/
+models/

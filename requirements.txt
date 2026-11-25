@@ -1,0 +1,9 @@
+# Dependencies for manifest validation, scoring, and vLLM evaluation.
+Pillow>=10.0.0
+PyYAML>=6.0.1
+tqdm>=4.66.0
+
+# Optional GPU inference stack (uncomment or install separately for CUDA environments):
+# torch>=2.5.0
+# transformers>=4.51.0
+# vllm>=0.8.0

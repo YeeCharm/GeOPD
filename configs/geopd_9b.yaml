@@ -1,0 +1,58 @@
+# Experimental configuration for GeOPD (Qwen3.5-9B).
+model:
+  base: Qwen/Qwen3.5-9B
+  dtype: bfloat16
+  enable_thinking: false
+
+data:
+  dataset: GeoContext-5K
+  training_questions: 5394
+  multiple_choice_questions: 2658
+  short_answer_questions: 2736
+  development_questions: 256
+  max_prompt_tokens: 6144
+  max_response_tokens: 128
+
+training:
+  gpus: 4
+  global_questions_per_update: 96
+  rollouts_per_question: 4
+  learning_rate: 2.0e-6
+  updates: 56
+  development_check_interval: 7
+  development_tie_break: earliest
+  selected_checkpoint_step: 49
+
+rollout:
+  backend: vllm
+  tensor_parallel_size: 2
+  temperature: 1.0
+  top_p: 1.0
+  top_k: -1
+
+objective:
+  teacher: frozen_base
+  teacher_privilege: marked_full_scene_and_visual_fact
+  student_masking: target_only_mean_rgb_preserve_references
+  top_k_candidates: 100
+  residual_bucket: true
+  js_mixture: 0.5
+  probability_floor: 1.0e-8
+  norm_product_floor: 1.0e-8
+  importance_ratio_cap: 2.0
+  distillation_reduction: token_mean
+  visual_contrast:
+    coefficient: 0.02
+    log_ratio_clip: 20.0
+    kl_max: 10.0
+
+evaluation:
+  image_long_edge: 1024
+  greedy: true
+  max_new_tokens: 128
+  benchmarks:
+    - CHOICE
+    - GEOBench-VLM
+    - OmniEarth
+    - HRVQA
+    - LHRS-Bench
