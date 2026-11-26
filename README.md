@@ -18,8 +18,8 @@
 
 - [x] Project overview, experimental configurations (`configs/`), and benchmark results
 - [x] Five-benchmark remote sensing VQA evaluation & scoring toolkit (`eval/`) and sample schemas (`examples/`)
-- [ ] Core **GeOPD** training framework (evidence-view masking, directional distillation, and visual contrast) — *to be released upon paper decision*
-- [ ] Full **GeoContext-5K** training dataset (5,394 verified QA pairs) on Hugging Face
+- [ ] Core **GeOPD** training framework  *to be released upon paper decision*
+- [ ] Full **GeoContext-5K** training dataset on Hugging Face
 - [ ] Pretrained **GeOPD-4B** and **GeOPD-9B** checkpoints on Hugging Face
 
 ## Overview
