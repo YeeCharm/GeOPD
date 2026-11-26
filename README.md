@@ -3,10 +3,8 @@
 <h1>Seeing the Right Context: Grounded On-Policy Distillation for Remote Sensing</h1>
 
 [![arXiv](https://img.shields.io/badge/arXiv-2611.34700-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.34700)
-[![Backbone](https://img.shields.io/badge/Backbone-Qwen3.5--4B%20%7C%209B-0F4C81?style=flat-square)](#training-configurations)
 [![Dataset](https://img.shields.io/badge/Dataset-GeoContext--5K%20(Coming%20Soon)-0D9488?style=flat-square)](#geocontext-5k)
 [![Weights](https://img.shields.io/badge/Checkpoints-Coming%20Soon-64748B?style=flat-square)](#release-roadmap)
-[![Benchmarks](https://img.shields.io/badge/Benchmarks-5%20RS--VQA-168B83?style=flat-square)](#results)
 [![License](https://img.shields.io/badge/License-Apache--2.0-3B82F6?style=flat-square)](LICENSE)
 
 [Release Roadmap](#release-roadmap) · [Overview](#overview) · [GeoContext-5K](#geocontext-5k) · [Results](#results) · [Getting Started](#getting-started) · [Evaluation](#evaluation) · [Configurations](#training-configurations) · [Citation](#citation)
