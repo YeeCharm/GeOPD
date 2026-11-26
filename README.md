@@ -2,6 +2,7 @@
 
 <h1>Seeing the Right Context: Grounded On-Policy Distillation for Remote Sensing</h1>
 
+[![arXiv](https://img.shields.io/badge/arXiv-2611.34700-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.34700)
 [![Backbone](https://img.shields.io/badge/Backbone-Qwen3.5--4B%20%7C%209B-0F4C81?style=flat-square)](#training-configurations)
 [![Dataset](https://img.shields.io/badge/Dataset-GeoContext--5K%20(Coming%20Soon)-0D9488?style=flat-square)](#geocontext-5k)
 [![Weights](https://img.shields.io/badge/Checkpoints-Coming%20Soon-64748B?style=flat-square)](#release-roadmap)
@@ -465,10 +466,14 @@ We thank the teams behind the following datasets, methods, and base models for m
 If you find GeOPD or GeoContext-5K useful for your research, please consider citing:
 
 ```bibtex
-@article{luo2026geopd,
-  title={Seeing the Right Context: Grounded On-Policy Distillation for Remote Sensing},
-  author={Luo, Yichang and Zhu, Hourun and Liu, Shixiong and Wei, Kan and Liang, Shi and Zhang, Yidan and Wang, Lei},
-  year={2026}
+@misc{luo2026seeingrightcontextgrounded,
+      title={Seeing the Right Context: Grounded On-Policy Distillation for Remote Sensing},
+      author={Yichang Luo and Hourun Zhu and Shixiong Liu and Kan Wei and Shi Liang and Yidan Zhang and Lei Wang},
+      year={2026},
+      eprint={2611.34700},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2611.34700},
 }
 ```
 
